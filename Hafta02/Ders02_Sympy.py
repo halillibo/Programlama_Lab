@@ -20,9 +20,9 @@ print(syp.plot(my_gauss_function.subs({mu:1,sigma:3}), (x, -10, 10), title='gaus
 x_values = []
 y_values = []
 for value in range(-50,50):
- y = my_gauss_function.subs({mu:0,sigma:10,x:value}).evalf()
- y_values.append(y)
- x_values.append(value)
- print(value,y)
+    y = my_gauss_function.subs({mu:0,sigma:10,x:value}).evalf()
+    y_values.append(y)
+    x_values.append(value)
+    print(value,y)
 
 plt.plot(x_values,y_values)
