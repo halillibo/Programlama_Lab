@@ -1,0 +1,20 @@
+sympy:::Sembolik python kütüphanesidir.Üs alma,türev alma,gibi birçok işlemi gerçekleştirir.
+symbol:::Bir değişkene sembol atamamızı sağlar.
+evalf:::Sayısal bir ifadeyi kayan noktalı sayı olarak değerlendirmek için kullanılır.
+factor:::İfadeyi çarpanlara ayırır.
+import sympy as syp:::Çizim modülünün sınıfıdır.
+syp.plot(fonksiyon.adi.subs({mu:deger,sigma:deger}),(x,baslangıc_degeri,bitis_degeri),title='grafik basligi'):::Parametrelere göre grafik çizer.
+expand:::Üzerinde işlem yaptığımız ifadeyi geri topların açılımıdır.
+pprint:::İfadeyi matematikteki halinde yazar.
+subs(x.y):::Parametlerin yerini değiştirir.
+sqrt(x):::x tam kare değilse tanımlamasını karekök şeklinde yazar.
+exp:::e'ye göre üstel fonksiyon ataması.
+show:::Grafik değerleriyle beraber çıktı olarak verilir.
+matplotlib:::Verileri grafikleştirir.Görselleştirir.
+
+
+
+Halil İbrahim 
+    TÜRKMENOĞLU
+        180401006
+
